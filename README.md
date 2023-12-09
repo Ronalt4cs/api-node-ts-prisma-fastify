@@ -1,10 +1,10 @@
-## Boilerplate backend 
+# Boilerplate backend 
 
 Api básica para registro e login de um usuário
 
-## Rodando localmente
+# Rodando localmente
 
-Clone o projeto
+## Clone o projeto
 
 ```bash
   git clone git@github.com:Ronalt4cs/api-node-ts-prisma-fastify.git
@@ -16,19 +16,26 @@ Entre no diretório do projeto
   cd my-project
 ```
 
-Instale as dependências
+## Instale as dependências
 
 ```bash
   npm install
 ```
 
-Instale as migration do prisma
+
+## Rode a imagem do docker
+
+```bash
+  docker-compose up -d
+```
+
+## Instale as migration do prisma
 
 ```bash
   npx prisma migrate dev
 ```
 
-Inicie o servidor
+## Inicie o servidor
 
 ```bash
   npm run dev
